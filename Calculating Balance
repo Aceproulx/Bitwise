@@ -1,0 +1,14 @@
+#These are variables
+his_wallet = 100000
+noodle = 10000
+meat = 50000
+garlic = 11000
+Discount = 10000
+
+#Total amount of the items
+Total_amount = noodle + meat + garlic
+
+#Calculating balance
+balance = his_wallet-Total_amount - Discount
+
+print ("The balance is",balance,"Rupia")
